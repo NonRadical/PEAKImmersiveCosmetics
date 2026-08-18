@@ -1,0 +1,12 @@
+# Whitelist: only the mod source, icons, and solution are tracked.
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/PeakMod.slnx
+!/PEAKImmersiveCosmetics/
+
+# Inside the project: exclude build output, game art sources, design notes.
+/PEAKImmersiveCosmetics/bin/
+/PEAKImmersiveCosmetics/obj/
+*.DotSettings.user
